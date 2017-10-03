@@ -26,8 +26,6 @@ my $pipeline = PeptidePipeline->new($parameterFileName);
 my $serverMode = $pipeline->getParam("server_mode");
 
 
-my $cmd = "cp * /netapp/sali/peptide/data/temp/";
-
 if ($serverMode eq "training"){
     $pipeline->readPeptideInputFile();
 }
