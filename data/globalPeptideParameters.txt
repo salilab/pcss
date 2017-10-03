@@ -112,9 +112,9 @@ svm_test_set_file_name	svmTestSet
 svm_training_set_file_name	svmTrainingSet
 svm_application_set_file_name	svmApplicationSet
 svm_score_file_name	svmScoreFile
-svm_classify_command	/netapp/sali/peptide/bin/svm_classify_x64
+svm_classify_command	svm_classify
 svm_training_model_name	trainingModel
-svm_learn_command	/netapp/sali/peptide/bin/svm_learn_x64 -t 2
+svm_learn_command	svm_learn -t 2
 
 #TESTING
 test_mode	no

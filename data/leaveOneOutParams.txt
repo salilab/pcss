@@ -2,7 +2,7 @@
 svm_test_set_file_name	svmTestSet
 writeUserResults	yes
 training_final_result_file_name	svmTrainingFinalResults.txt
-svm_classify_command	/netapp/sali/peptide/bin/svm_classify_x64
+svm_classify_command	svm_classify
 keyword_no_peptides_parsed	no_peptides_parsed
 model_pipeline_result_file_name	modelPipelineResults.txt
 svm_training_set_file_name	svmTrainingSet
@@ -76,7 +76,7 @@ framework_log_file_name	framework.log
 keyword_no_modbase_for_uniprot	Not_Found
 keyword_output_error	output_error
 seq_batch_top_directory	sequenceBatches
-svm_learn_command	/netapp/sali/peptide/bin/svm_learn_x64 -t 2
+svm_learn_command	svm_learn -t 2
 applyHmm	no
 keyword_application_display	applicationDisplay
 seq_batch_directory_prefix	seq_batch
