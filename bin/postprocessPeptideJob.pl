@@ -2,7 +2,6 @@
 
 use strict;
 use FileHandle;
-use lib "/netapp/sali/peptide/lib/";
 use FastaReader;
 
 
