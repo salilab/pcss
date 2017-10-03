@@ -1,0 +1,4 @@
+PREFIX=/usr/local
+DATADIR=${PREFIX}/share/data/pcss
+BINDIR=${PREFIX}/bin
+PERLDIR=${PREFIX}/share/perl5
