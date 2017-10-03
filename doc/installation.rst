@@ -16,9 +16,9 @@ system paths. This may require setting ``PATH`` and/or
 ``LD_LIBRARY_PATH`` environment variables, or modifying the global parameter
 file. Note that Linux is the only platform on which PCSS has been tested.
 
-* `Perl <https://www.perl.org/>_`.
+* `Perl <https://www.perl.org/>`_.
 
-* `SVMlight <http://svmlight.joachims.org/>_`.
+* `SVMlight <http://svmlight.joachims.org/>`_.
 
 In the Sali lab, running 
 ``module load svm_light``
