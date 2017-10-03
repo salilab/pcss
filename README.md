@@ -1,3 +1,5 @@
+[![docs](https://readthedocs.org/projects/pcss/badge/)](https://pcss.readthedocs.org/)
+
 PCSS is a computational tool for peptide classification using sequence
 and structure.
 
@@ -7,3 +9,5 @@ it relies on several databases and programs in hard-coded locations.
 
 The current best way to use PCSS is to use the
 [web interface](https://salilab.org/peptide/).
+
+See [the documentation](https://pcss.readthedocs.org/) for more detail.
